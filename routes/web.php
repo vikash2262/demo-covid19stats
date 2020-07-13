@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::get('/', function () {
-    return view('weather');
-});*/
-
-Route::get('/', 'weatherController@index')->name('weather.index');
-Route::get('/search', 'weatherController@index')->name('weather.index');
-Route::post('/search', 'weatherController@store')->name('weather.store');
+Route::get('/', 'covid19Controller@index')->name('covid.index');
+//Route::get('/search', 'weatherController@index')->name('weather.index');
+//Route::post('/search', 'weatherController@store')->name('weather.store');

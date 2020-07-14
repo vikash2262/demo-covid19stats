@@ -64,19 +64,19 @@
             }
 
             .table td.deceasedcase:hover{
-                background-color:rgba(108, 117, 125, 0.125);
+                background-color:rgba(108, 117, 125, 0.125)!important;
                 border-radius:2px;
             }
             .table td.recoveredcase:hover{
-                background-color:rgba(40, 167, 69, 0.125);
+                background-color:rgba(40, 167, 69, 0.125)!important;
                 border-radius:2px;
             }
             .table td.activecase:hover{
-                background-color:rgba(0, 123, 255, 0.125);
+                background-color:rgba(0, 123, 255, 0.125)!important;
                 border-radius:2px;
             }
             .table td.confirmedcase:hover{
-                background-color:rgba(255, 7, 58, 0.125);
+                background-color:rgba(255, 7, 58, 0.125)!important;
                 border-radius:2px;
             }
             .container .col-6{margin:0 auto;}
@@ -85,10 +85,10 @@
             .totalcases{list-style: none}
             .totalcases span{font-size: 21px;}
 
-            .totalconfirmedcase{color:#ee1441}
-            .totalactivecase{color:#0276f2}
-            .totalrecoveredcase{color:#1aa53a}
-            .totaldeceasedcase{color:#494a4b}
+            .totalconfirmedcase{color:#ee1441;border-radius:2px;}
+            .totalactivecase{color:#0276f2;border-radius:2px;}
+            .totalrecoveredcase{color:#1aa53a;border-radius:2px;}
+            .totaldeceasedcase{color:#494a4b;border-radius:2px;}
             .updatedate{padding: 0!important;font-size: 10px;}
             
         </style>
